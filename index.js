@@ -103,7 +103,8 @@ async function main() {
   step = 0;
   word = choice(words);
   console.log(word);
-  wordmask = word.split("").map((el) => el == " ");
+  wordmask = word.split("").map((el) => el == " " || el == word[0]);
+
   updateDisplays();
   resetButtons();
 }
