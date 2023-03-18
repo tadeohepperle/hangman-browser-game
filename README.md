@@ -5,3 +5,11 @@ Available at http://tadeohepperle.com/hangman-browser-game/
 
 ![image](https://user-images.githubusercontent.com/62739623/174670573-f1d1d659-b74a-4fa2-90f2-f07bb89db3c5.png)
 ![image](https://user-images.githubusercontent.com/62739623/174670643-a1f1c419-53a0-4422-83a2-151b611b02df.png)
+
+
+```
+const buchstaben = [
+  "a", "ä", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "ö", "p", "q", "r", "s", "ß", "t", "u", "ü", "v", "w", "x", "y", "z",
+  "A", "Ä", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "Ö", "P", "Q", "R", "S", "T", "U", "Ü", "V", "W", "X", "Y", "Z"
+];
+```
